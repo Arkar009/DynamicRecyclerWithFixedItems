@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                     employeeListItemsToBind.add(employeeListItem); // add to list that will be bind with RecyclerView
                 }
                 employeeAdapter.notifyDataSetChanged();
-                timer(); // to load with time interval
+                timer(); // to load with time interval to show
             }
 
             @Override
